@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3708" scrolltop="-1162" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="22416" y="13970" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10710" scrolltop="-5358" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="22416" y="5207" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
@@ -201,11 +201,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-3708</Value>
+      <Value>-10710</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-1162</Value>
+      <Value>-5358</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -269,7 +269,21 @@
         <Attribute dwd:design-time-name="c6db5cf4-9e52-4bc9-b7e4-772556a76302">
           <AttributeID>Sales Territory Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="45cae7ad-02c9-4834-b0a9-533778a5ff07">
+          <AttributeID>Sales Territory Region</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9e359fdd-7d10-4c13-a633-31253dce19d7">
+          <AttributeID>Sales Territory Country</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1bd9ca98-9a5c-4448-87fe-e7d7dfe539e3">
+          <AttributeID>Sales Territory Group</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e367b5a5-3f9d-4b2c-a6a0-a4228199723c">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="45dbf308-23d2-4c8d-a23c-e3a8d1780e09">
       <ID>Dim Product</ID>
@@ -301,7 +315,7 @@
         <Attribute dwd:design-time-name="4f95834a-41a2-4bf8-b128-49a7db25dd3c">
           <AttributeID>Full Date Alternate Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="380219da-cc0c-4f68-bd31-d23784a819bf">
+        <Attribute dwd:design-time-name="a02ac452-bd89-4bae-baba-bd465285205f">
           <AttributeID>Month Number Of Year</AttributeID>
         </Attribute>
       </Attributes>
@@ -331,7 +345,7 @@
         <Attribute dwd:design-time-name="ead8bafd-28f6-46ae-bdd8-85359c74d1a3">
           <AttributeID>Full Date Alternate Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3b559408-56c7-4e7c-b56c-910c75fc2561">
+        <Attribute dwd:design-time-name="d2eca893-dd5f-4ec0-8ca3-8c325b215e7c">
           <AttributeID>Month Number Of Year</AttributeID>
         </Attribute>
       </Attributes>
@@ -361,7 +375,7 @@
         <Attribute dwd:design-time-name="baf7e947-c33c-4522-9e62-cd7aa95b95b7">
           <AttributeID>Full Date Alternate Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6a9a1aa2-05f0-48ff-95da-34c35fed5676">
+        <Attribute dwd:design-time-name="506e655c-9e59-4fbb-8860-1547990f13e1">
           <AttributeID>Month Number Of Year</AttributeID>
         </Attribute>
       </Attributes>
@@ -564,6 +578,7 @@
           </Attributes>
         </Dimension>
       </Dimensions>
+      <Partitions />
     </MeasureGroup>
   </MeasureGroups>
   <Source dwd:design-time-name="8c701d33-4578-44ec-87f8-39a86386cadb">
